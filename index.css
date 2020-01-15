@@ -1,0 +1,58 @@
+html,
+body{
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+}
+body{
+    min-height: 100%;}
+.navbar {
+    margin-bottom: 20px !important;
+}
+.card-title{
+    font-style: bold;
+    font-size: 30px;
+}
+.card-text{
+    font-style: bold;
+}
+.row{
+    min-height: 100%;
+}
+.page-wrapper{
+    min-height: 100px;
+}
+.footer .footer-content{
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+}
+.footer .footer-content .footer-section{
+    flex: 1;
+    border: 1px solid white;
+}
+.footer{
+    background-color:#c6ccd1;
+    color: black;
+    height: 225px;
+    position: relative;
+    display: flex;
+}
+.footer .footer-bottom{
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 5px;
+    width: 100%;
+}
+.col-sm-2{
+    float: right;
+}
+img{
+    height: 100px;
+    width: 150px;
+}
