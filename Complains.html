@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<Title>Complains</Title>
+<Title>Complaints</Title>
 <link rel="stylesheet" href="index.css">
 </head><div>
     <body>
  <!--Bootstrap for the navbar-->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-  <a class="navbar-brand" href="Photos/logo.png">
-    <img src="Photos/logo.png">
+  <a class="navbar-brand" href="Photos/logo0.png">
+    <img src="Photos/logo0.png">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-   controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span></button>
@@ -25,11 +25,11 @@
        <li class="nav-item">
           <a class="nav-link" href="Complains.html">Complaint &nbsp;</a></li>
        <li class="nav-item">
-          <a class="nav-link" href="#">News &nbsp;</a></li>
+          <a class="nav-link" href="news.html">News &nbsp;</a></li>
        <li class="nav-item">
           <a class="nav-link" href="Location.html">My Location</a></li></ul>
   
-  <span class="navbar-text">Search
+  <span class="navbar-text"><button>Search</button>
     <input type="text" placeholder="Search"></input>
   </span>
   </div></nav>
@@ -50,9 +50,10 @@
   <div class="col-lg-12">
 <!--Complain form-->
 <h4>Title</h4>
-<input type="text" placeholder="A brief title to your problem"></input>
+<input type="text" placeholder="Give Title"></input>
 <br></br>
 <h4>Category</h4>
+<div class=dropdown-content>
 <form action="/action_page.php">
   <select name="Category">
     <option value="Not selected">Not selected</option>
@@ -60,14 +61,17 @@
     <option value="Rabid Animals">Rabid Animals</option>
     <option value="Fire">Fire</option>
     <option value="Disease outbreak">Disease outbreak</option>
+    <option value="Assault">Assault</option>
   </select>
   
 </form>
+</div>
  <br></br>
  <h4>Description</h4>
- <input type="text" placeholder="Describe your problem in detail"></input>
-
+ <div>
+ <textarea rows="4" cols="50" placeholder="Describe your complaint here..."></textarea><br></br><button>Submit</button>  </div>                                                    
 </footer></div></div>
+
 <br></br>
 <br></br>
 <!--Used to push the footer at the bottom of the page-->
@@ -83,11 +87,11 @@
       </div>
       <div class="footer-section links">
         <h3>Emergency Contacts</h3>
-        <a href="#">Police - 101</a>
+        <a href="tel:101">Police - 101</a>
         <br>
-        <a href="#">Ambulance -103</a>
+        <a href="tel:102">Ambulance -102</a>
         <br>
-        <a href="#">Fire - 103</a>
+        <a href="tel:103">Fire - 103</a>
       </div>
       <div class="footer-section contact-form"></div>
     </div>
